@@ -1,10 +1,14 @@
-package org.example;
+package org.example.operations;
 
 public class Transaction {
     private String transactionType;
 
     public Transaction(String transactionType) {
         this.transactionType = transactionType;
+    }
+
+    public Transaction() {
+
     }
 
     public String getTransactionType() {

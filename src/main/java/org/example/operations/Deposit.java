@@ -1,48 +1,48 @@
 package org.example.operations;
 
 public class Deposit {
-    private String numerKonta;
-    private double saldoPoczatkowe;
-    private double kwota;
+    private long accNum;
+    private long saldo;
+    private long amount;
 
-    // Konstruktor z jednym parametrem
-    public Deposit(String numerKonta) {
-        this.numerKonta = numerKonta;
-        this.saldoPoczatkowe = 0.0;
+    // Constructor with 1 parameter
+    public Deposit(long accNum) {
+        this.accNum = accNum;
     }
 
-    // Konstruktor z dwoma parametrami
-    public Deposit(String numerKonta, double saldoPoczatkowe) {
-        this.numerKonta = numerKonta;
-        this.saldoPoczatkowe = saldoPoczatkowe;
+    // Constructor with 2 parameters
+    public Deposit(long accNum, long saldo) {
+        this.accNum = accNum;
+        this.saldo = saldo;
     }
 
-    // Metoda do wpłaty
-    public void wplata(double kwota) {
-        saldoPoczatkowe += kwota;
-        System.out.println("Wpłata: " + kwota + " PLN");
+    //Constructor with 3 parameters
+
+    public Deposit(long accNum, long saldo, long amount){
+        this.accNum = accNum;
+        this.saldo = saldo;
+        this.amount = amount;
     }
 
-    // Przeciążona metoda do wpłaty z dodatkowym parametrem - opisem transakcji
-    public void wplata(double kwota, String opis) {
-        saldoPoczatkowe += kwota;
-        System.out.println("Wpłata: " + kwota + " PLN");
-        System.out.println("Opis: " + opis);
-    }
-    
+    public Deposit() {
 
-    // Metoda do wyświetlenia informacji o koncie
-    public void informacje() {
-        System.out.println("Numer konta: " + numerKonta);
-        System.out.println("Saldo: " + saldo + " PLN");
+    }
+
+    // Deposit method
+    public double wplata(long amount) {
+        return saldo += amount;
+        }
+
+    // Overloaded method with additional parameter - opis transakcji
+    public double wplata(long amount, String opis) {
+        return saldo += amount;
+        }
+
+
+    public String toString() {
+        return "Account number: " + accNum +
+                "\nDeposit: " + amount +
+                "\nSaldo: " + saldo + " PLN";
     }
 }
 
-public class Main {
-    public static void main(String[] args) {
-        Deposit konto1 = new Deposit ("1234567890");
-        konto1.wplata(1000.0);
-        konto1.wplata(500.0, "Wpłata z pensji");
-        konto1.informacje();
-    }
-}

@@ -1,4 +1,6 @@
-package org.example;
+package org.example.operations;
+
+import org.example.operations.Transaction;
 
 public class TransactionHistory extends Transaction {
     private double numberOfTransactions;
@@ -6,6 +8,10 @@ public class TransactionHistory extends Transaction {
     public TransactionHistory(String transactionType, double numberOfTransactions) {
         super(transactionType);
         this.numberOfTransactions = numberOfTransactions;
+    }
+
+    public TransactionHistory() {
+
     }
 
     public double getNumberOfTransactions() {

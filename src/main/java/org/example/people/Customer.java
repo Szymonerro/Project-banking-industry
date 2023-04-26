@@ -6,6 +6,10 @@ public class Customer extends Human {
         super(firstName, lastName, age, address);
     }
 
+    public Customer() {
+
+    }
+
     public String toString() {
         return "Customer name: " + getFirstName() + " " + getLastName() +
                 "\nAge: " + getAge() +

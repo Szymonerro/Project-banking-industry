@@ -10,6 +10,10 @@ public class Loan {
         this.interestRate = interestRate;
     }
 
+    public Loan () {
+
+    }
+
     public double getLoanAmount() {
         return loanAmount;
     }

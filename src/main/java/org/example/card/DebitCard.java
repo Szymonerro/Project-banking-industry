@@ -6,6 +6,10 @@ public class DebitCard extends Card {
         super(cardType, owner);
     }
 
+    public DebitCard () {
+
+    }
+
     public String toString() {
         return "Account owner is " + getOwner() + " " +
                 "\nCard type: " + getCardType();

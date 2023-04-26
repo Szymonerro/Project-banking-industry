@@ -13,6 +13,10 @@ public abstract class Human {
         this.address = address;
     }
 
+    public Human () {
+
+    }
+
     public String getFirstName() {
         return firstName;
     }

@@ -7,6 +7,10 @@ public class BankEmployee extends Human {
         super(firstName, lastName, age, address);
     }
 
+    public BankEmployee() {
+
+    }
+
     public int getEmployeeId() {
         return employeeId;
     }

@@ -6,6 +6,10 @@ public class BankManager extends Human {
         super(firstName, lastName, age, address);
     }
 
+    public BankManager() {
+
+    }
+
     public String toString() {
         return "Customer name: " + getFirstName() + " " + getLastName() +
                 "\nAge: " + getAge() +

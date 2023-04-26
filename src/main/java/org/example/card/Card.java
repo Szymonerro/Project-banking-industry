@@ -9,6 +9,10 @@ public abstract class Card {
         this.owner = owner;
     }
 
+    public Card () {
+
+    }
+
     public String getCardType() {
         return cardType;
     }
