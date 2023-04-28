@@ -1,8 +1,6 @@
 package org.example.operations;
 
 import org.example.account.Account;
-import org.example.operations.Deposit;
-import org.example.operations.Withdraw;
 
 public class Transfer extends Transaction {
 
@@ -55,5 +53,13 @@ public class Transfer extends Transaction {
 
     public void setTo(Account to) {
         this.to = to;
+    }
+
+    public double getAmount() {
+        return amount;
+    }
+
+    public void setAmount(double amount) {
+        this.amount = amount;
     }
 }
