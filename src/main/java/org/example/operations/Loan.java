@@ -1,7 +1,6 @@
-package org.example;
+package org.example.operations;
 
-// 15th class - Loan
-public class Loan {
+public class Loan {   // CLASS NOT FINISHED
     private double loanAmount;
     private int interestRate;
 

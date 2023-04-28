@@ -4,7 +4,7 @@ public abstract class Human {
     private String firstName;
     private String lastName;
     private int age;
-    private String address;
+    protected String address;
 
     public Human (String firstName, String lastName, int age, String address) {
         this.firstName = firstName;

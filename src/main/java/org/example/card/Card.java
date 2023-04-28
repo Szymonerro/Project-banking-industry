@@ -1,37 +1,28 @@
 package org.example.card;
+import org.example.people.Customer;
 
 public abstract class Card {
-    private String cardType;
-    private String owner;
+    protected Customer customer;
+    protected long cardNumber;
 
-    public Card(String cardType, String owner) {
-        this.cardType = cardType;
-        this.owner = owner;
+    public Card(Customer customer, long cardNumber) {
+        this.customer = customer;
+        this.cardNumber = cardNumber;
     }
 
     public Card () {
-
     }
 
-    public String getCardType() {
-        return cardType;
+    public long getCardNumber() {
+        return cardNumber;
     }
 
-    public void setCardType(String cardType) {
-        this.cardType = cardType;
-    }
-
-    public String getOwner() {
-        return owner;
-    }
-
-    public void setOwner(String owner) {
-        this.owner = owner;
+    public void setCardNumber(long cardNumber) {
+        this.cardNumber = cardNumber;
     }
 
     public String toString() {
-        return "Account owner is " + getOwner() + " " +
-                "\nCard type: " + getCardType();
-
+        return "Card owner: " + customer +
+                "\nCard number: " + cardNumber;
     }
 }

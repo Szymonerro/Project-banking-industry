@@ -1,48 +1,67 @@
 package org.example.operations;
 
-public class Deposit {
-    private long accNum;
-    private long saldo;
-    private long amount;
+import org.example.account.Account;
 
-    // Constructor with 1 parameter
-    public Deposit(long accNum) {
-        this.accNum = accNum;
+public class Deposit extends Transaction {
+    private String opis;
+    private double amount;
+
+    public void deposit(Account account, double amount) {
+        switch (amount > 0 ? 1 : 2) {
+            case 1:
+                double balanceBefore = account.getBalance();
+                double newBalance = balanceBefore + amount;
+                account.setBalance(newBalance);
+                this.balanceBefore = balanceBefore;
+                this.newBalance = newBalance;
+                this.amount = amount;
+                System.out.println("Account number: " + account.getAccountNumber() +
+                        "\nBalance before operation: " + getBalanceBefore() + " PLN" +
+                        "\nDeposit: " + getAmount() + " PLN" +
+                        "\nNew balance: " + getNewBalance() + " PLN\n");
+                break;
+            case 2:
+                System.out.println("Amount must be greater than zero\n");
+                break;
+        }
     }
 
-    // Constructor with 2 parameters
-    public Deposit(long accNum, long saldo) {
-        this.accNum = accNum;
-        this.saldo = saldo;
+    // Overloaded method with additional parameter - transaction description
+    public void deposit(Account account, double amount, String opis) {
+        switch (amount > 0 ? 1 : 2) {
+            case 1:
+                double balanceBefore = account.getBalance();
+                double newBalance = balanceBefore + amount;
+                account.setBalance(newBalance);
+                this.balanceBefore = balanceBefore;
+                this.newBalance = newBalance;
+                this.amount = amount;
+                this.opis = opis;
+                System.out.println("Account number: " + account.getAccountNumber() +
+                        "\nBalance before operation: " + getBalanceBefore() + " PLN" +
+                        "\nDeposit: " + getAmount() + " PLN" +
+                        "\nTitle: " + getOpis() +
+                        "\nNew balance: " + getNewBalance() + " PLN\n");
+                break;
+            case 2:
+                System.out.println("Amount must be greater than zero\n");
+                break;
+        }
     }
 
-    //Constructor with 3 parameters
+    public String getOpis() {
+        return opis;
+    }
 
-    public Deposit(long accNum, long saldo, long amount){
-        this.accNum = accNum;
-        this.saldo = saldo;
+    public void setOpis(String opis) {
+        this.opis = opis;
+    }
+
+    public double getAmount() {
+        return amount;
+    }
+
+    public void setAmount(double amount) {
         this.amount = amount;
     }
-
-    public Deposit() {
-
-    }
-
-    // Deposit method
-    public double wplata(long amount) {
-        return saldo += amount;
-        }
-
-    // Overloaded method with additional parameter - opis transakcji
-    public double wplata(long amount, String opis) {
-        return saldo += amount;
-        }
-
-
-    public String toString() {
-        return "Account number: " + accNum +
-                "\nDeposit: " + amount +
-                "\nSaldo: " + saldo + " PLN";
-    }
 }
-

@@ -1,13 +1,30 @@
 package org.example.people;
 
-public class BankEmployee extends Human {
-    private int employeeId;
+import org.example.account.Account;
+import org.example.enums.Position;
+import org.example.interfaces.BankEmployeeDuties;
 
-    public BankEmployee(String firstName, String lastName, int age, String address, int employeeId) {
+public class BankEmployee extends Human implements BankEmployeeDuties {
+    private int employeeId;
+    private Position position;
+
+    public BankEmployee(String firstName, String lastName, int age, String address, int employeeId, Position position) {
         super(firstName, lastName, age, address);
+        this.employeeId = employeeId;
+        this.position = position;
     }
 
     public BankEmployee() {
+
+    }
+
+    @Override
+    public void openNewAccount(Customer customer, Account account) {
+
+    }
+
+    @Override
+    public void closeAccount(Customer customer, Account account) {
 
     }
 
@@ -19,10 +36,19 @@ public class BankEmployee extends Human {
         this.employeeId = employeeId;
     }
 
+    public Position getPosition() {
+        return position;
+    }
+
+    public void setPosition(Position position) {
+        this.position = position;
+    }
+
     public String toString() {
-        return "Customer name: " + getFirstName() + " " + getLastName() +
+        return "Employee name: " + getFirstName() + " " + getLastName() +
                 "\nAge: " + getAge() +
                 "\nAddress: " + getAddress() +
-                "\nEmployee ID: " + getEmployeeId();
+                "\nEmployee ID: " + getEmployeeId() +
+                "\nPosition: " + getPosition();
     }
 }

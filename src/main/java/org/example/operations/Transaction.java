@@ -1,25 +1,23 @@
-package org.example.operations;
+package org.example.operations;                                                  // add transaction ID
 
-public class Transaction {
-    private String transactionType;
+public abstract class Transaction {
+    protected double balanceBefore;
+    protected double newBalance;
 
-    public Transaction(String transactionType) {
-        this.transactionType = transactionType;
+
+    public double getBalanceBefore() {
+        return balanceBefore;
     }
 
-    public Transaction() {
-
+    public void setBalanceBefore(double balanceBefore) {
+        this.balanceBefore = balanceBefore;
     }
 
-    public String getTransactionType() {
-        return transactionType;
+    public double getNewBalance() {
+        return newBalance;
     }
 
-    public void setTransactionType(String transactionType) {
-        this.transactionType = transactionType;
-    }
-
-    public String toString () {
-        return "Transaction type: " + getTransactionType();
+    public void setNewBalance(double newBalance) {
+        this.newBalance = newBalance;
     }
 }

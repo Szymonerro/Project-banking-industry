@@ -1,79 +1,78 @@
 package org.example;
 
-import org.example.account.BankAccount;
-import org.example.account.BusinessAccount;
-import org.example.card.Color;
-import org.example.operations.Transaction;
-import org.example.operations.TransactionHistory;
-import org.example.operations.Withdraw;
+import org.example.account.*;
+import org.example.card.CreditCard;
+import org.example.card.DebitCard;
+import org.example.enums.*;
+import org.example.operations.*;
 import org.example.people.BankEmployee;
 import org.example.people.BankManager;
-import org.example.account.SavingsAccount;
-import org.example.card.DebitCard;
-import org.example.card.CreditCard;
 import org.example.people.Customer;
-import org.example.account.InvestmentAccount;
-import org.example.operations.Deposit;
-import org.example.operations.Withdraw;
 
 public class Main {
     public static void main(String[] args) {
 
-        Bank bank = new Bank ("Lloyds Bank", "Main branch", "Percival Court 22");
-
-        //BankAccount bankAccount = new BankAccount ("Izazbela", "Kamola", 482711000023456L, "Private Account", 2000);
-        //SavingsAccount savingsAccount = new SavingsAccount("Michał", "Zawistowski", 231238723136912L, "Savings Account", 5000, 5);
-        //InvestmentAccount investmentAccount = new InvestmentAccount("Karol", "Wróbel", 5353529874324L, "Investment Account", 100000, 8);
-       // BusinessAccount businessAccount = new BusinessAccount("Dorota", "Rosiak", 6767112212121111L, "Business Account", 10000);
+        Bank bank = new Bank ("Lloyds Bank", "Main branch", "Percival Court 22, London, UK");
 
         Customer customer = new Customer("Szymon", "Rosiak", 27, "Lazurowa 12");
-        BankAccount bankAccount1 = new BankAccount (customer, 888868669678L, "Private Acc", 87586558 );
-        BankEmployee bankEmployee = new BankEmployee ("Wojciech", "Krawczyk", 26, "Sowińskiego 14", 007);
-        BankManager bankManager = new BankManager("Krzysztof", "Mazur", 40, "Szkolna 16");
+        Customer customer1 = new Customer("Izabela", "Kowalska", 26, "Prosta 51");
+        Customer company = new Customer("Solvd", 11743254, "Jerozolimskie 100");
+        BankEmployee bankEmployee = new BankEmployee ("Wojciech", "Krawczyk", 26, "Sowińskiego 14", 101, Position.CUSTOMER_SERVICE);
+        BankManager bankManager = new BankManager("Krzysztof", "Mazur", 40, "Szkolna 16", 112, Position.BRANCH_MANAGER);
 
-        Transaction transaction = new Transaction("International transfer");
-        TransactionHistory transactionHistory = new TransactionHistory("International transfer", 88);
-        Deposit wplata1 = new Deposit (585875858758L);
-        Deposit wplata2 = new Deposit (585858587585L, 5000);
-        Deposit wplata3 = new Deposit (676586586546L, 5000, 10);
-        Withdraw wyplata1 = new Withdraw(48476575858585L, 1000, 10);
+        BankAccount bankAccount = new BankAccount (Title.MR, customer, AccountType.PRIVATE, 482711000023456L, 2000);
+        SavingsAccount savingsAccount = new SavingsAccount(Title.MRS, customer1, AccountType.SAVINGS, 231238723136912L, 5, 5000);
+        InvestmentAccount investmentAccount = new InvestmentAccount(Title.MR, customer, AccountType.INVESTMENT, 5353529874324L, 8, 10000);
+        BusinessAccount businessAccount = new BusinessAccount(Title.COMPANY, company, AccountType.BUSINESS, 6767112212121111L, 70000);
+
+        Deposit deposit = new Deposit();
+        Withdraw withdraw = new Withdraw();
+        Transfer transfer = new Transfer ();
 
 
-        CreditCard creditCard = new CreditCard("Credit Card", "Łukasz Lewandowski", Color.color4 );
-        DebitCard debitCard = new DebitCard("Debit Card", "Monika Nowak");
+        CreditCard creditCard = new CreditCard(CardType.CREDIT_CARD, 69696976969L, customer, Color.GOLD);
+        DebitCard debitCard = new DebitCard(CardType.DEBIT_CARD, 76768696969696L, customer, Color.SILVER);
 
         Loan loan = new Loan(10000, 10);
 
 
         System.out.println("\n********** BANK DETAILS **********\n");
-        System.out.println(bank);
+        System.out.println(bank + "\n");
 
-        System.out.println("\n********** BANK ACCOUNTS **********\n");
-       // System.out.println(bankAccount);
-       // System.out.println(savingsAccount);
-        //System.out.println(investmentAccount);
-        //System.out.println(businessAccount);
+        System.out.println("********** CUSTOMERS **********\n");
+        System.out.println(customer + "\n");
+        System.out.println(customer1 + "\n");
+        System.out.println(company + "\n");
 
-        System.out.println("\n********** PEOPLE **********\n");
-        System.out.println(customer);
-        System.out.println(bankEmployee);
-        System.out.println(bankManager);
+        System.out.println("********** BANK ACCOUNTS **********\n");
+        System.out.println(bankAccount + "\n");
+        System.out.println(savingsAccount + "\n");
+        System.out.println(investmentAccount + "\n");
+        System.out.println(businessAccount + "\n");
 
-        System.out.println("\n********** TRANSACTIONS **********\n");
-        System.out.println(transaction);
-        System.out.println(transactionHistory);
-        System.out.println(wplata1);
-        System.out.println(wplata2);
-        System.out.println(wplata3);
-        System.out.println(wyplata1);
+        System.out.println("********** CARDS **********\n");
+        System.out.println(creditCard + "\n");
+        System.out.println(debitCard + "\n");
 
-        System.out.println("\n********** CARDS **********\n");
-        System.out.println(creditCard);
-        System.out.println(debitCard);
 
-        System.out.println("\n********** OTHERS **********\n");
-        System.out.println(loan);
+        System.out.println("********** TRANSACTIONS **********\n");
+        deposit.deposit(bankAccount, 100);
+        deposit.deposit(bankAccount, -40);
+        deposit.deposit(bankAccount, 100);
+        deposit.deposit(businessAccount, 50, "Test deposit");
+        withdraw.withdraw(businessAccount, -10);
+        withdraw.withdraw(businessAccount, 80000);
+        CheckBalance.checkBalance(bankAccount);
+        transfer.transfer(bankAccount, savingsAccount, 200);
 
+        // System.out.println(transactionHistory + "\n");
+
+        System.out.println("********** WORKERS **********\n");
+        System.out.println(bankEmployee + "\n");
+        System.out.println(bankManager + "\n");
+
+        System.out.println("********** OTHERS **********\n");
+        System.out.println(loan + "\n");
 
     }
 }
