@@ -1,5 +1,7 @@
 package org.example.people;
 
+import java.util.Objects;
+
 public abstract class Human {
     private String firstName;
     private String lastName;
@@ -16,6 +18,27 @@ public abstract class Human {
     public Human () {
 
     }
+
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Human human = (Human) o;
+
+        if (age != human.age) return false;
+        if (!Objects.equals(firstName, human.firstName)) return false;
+        if (!Objects.equals(lastName, human.lastName)) return false;
+        return Objects.equals(address, human.address);
+    }
+
+    public int hashCode() {
+        int result = firstName != null ? firstName.hashCode() : 0;
+        result = 31 * result + (lastName != null ? lastName.hashCode() : 0);
+        result = 31 * result + age;
+        result = 31 * result + (address != null ? address.hashCode() : 0);
+        return result;
+    }
+
 
     public String getFirstName() {
         return firstName;

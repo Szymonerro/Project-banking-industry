@@ -16,6 +16,7 @@ public class Main {
 
         Customer customer = new Customer("Szymon", "Rosiak", 27, "Lazurowa 12");
         Customer customer1 = new Customer("Izabela", "Kowalska", 26, "Prosta 51");
+        Customer customer2 = new Customer("Izabela", "Kowalska", 26, "Prosta 51");
         Customer company = new Customer("Solvd", 11743254, "Jerozolimskie 100");
         BankEmployee bankEmployee = new BankEmployee ("Wojciech", "Krawczyk", 26, "Sowińskiego 14", 101, Position.CUSTOMER_SERVICE);
         BankManager bankManager = new BankManager("Krzysztof", "Mazur", 40, "Szkolna 16", 112, Position.BRANCH_MANAGER);
@@ -73,6 +74,15 @@ public class Main {
 
         System.out.println("********** OTHERS **********\n");
         System.out.println(loan + "\n");
+
+        System.out.println("\n********** COMPARISON - equals() **********\n");
+        System.out.println("customer1.equals(customer2): " + customer1.equals(customer2)); // true
+        System.out.println("customer.equals(customer2): " + customer.equals(customer2)); // false
+
+        System.out.println("\n********** COMPARISON - equals() **********\n");
+        System.out.println("customer.hashCode(): " + customer.hashCode()); // unique value
+        System.out.println("customer1.hashCode(): " + customer1.hashCode()); // unique value
+        System.out.println("customer2.hashCode(): " + customer2.hashCode()); // same value as customer1.hashCode()
 
     }
 }
