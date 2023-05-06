@@ -1,36 +1,35 @@
 package org.example.card;
+import org.example.account.Account;
 import org.example.enums.CardType;
 import org.example.enums.Color;
+import org.example.interfaces.BlockCard;
 import org.example.people.Customer;
 
-public class CreditCard extends Card {
+public class CreditCard extends Card implements BlockCard {
     Color color;
     CardType cardType;
+    private boolean blocked = false;
 
-    public CreditCard(CardType cardType, long cardNumber, Customer customer, Color color) {
-        super(customer, cardNumber);
+    public CreditCard(CardType cardType, long cardNumber, Customer customer, Color color, Account account) {
+        super(customer, cardNumber, account);
         this.color = color;
         this.cardType = cardType;
+        this.account = account;
     }
 
-    public CreditCard () {
-
+    @Override
+    public void block() {
+        blocked = true;
+        System.out.println("Card is blocked!");
     }
-
-    public Color getColor() {
-        return color;
+    @Override
+    public void unblock() {
+        blocked = false;
+        System.out.println("Card is unblocked!");
     }
-
-    public void setColor(Color color) {
-        this.color = color;
-    }
-
-    public CardType getCardType() {
-        return cardType;
-    }
-
-    public void setCardType(CardType cardType) {
-        this.cardType = cardType;
+    @Override
+    public boolean isBlocked() {
+        return blocked;
     }
 
     @Override

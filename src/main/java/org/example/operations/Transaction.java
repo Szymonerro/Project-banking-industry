@@ -8,16 +8,8 @@ public abstract class Transaction {
     public double getBalanceBefore() {
         return balanceBefore;
     }
-
-    public void setBalanceBefore(double balanceBefore) {
-        this.balanceBefore = balanceBefore;
-    }
-
     public double getNewBalance() {
         return newBalance;
     }
 
-    public void setNewBalance(double newBalance) {
-        this.newBalance = newBalance;
-    }
 }

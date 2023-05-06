@@ -1,7 +1,7 @@
 package org.example.enums;
 
 public enum Color {
-    BLACK,
+//    BLACK,
     SILVER,
     GOLD
 }

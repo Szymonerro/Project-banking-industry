@@ -1,49 +1,46 @@
 package org.example.account;
 
+import org.example.card.Card;
 import org.example.enums.AccountType;
-import org.example.enums.Title;
+import org.example.interfaces.AccountLimits;
 import org.example.people.Customer;
 
-public class BankAccount extends Account {
+public class BankAccount extends Account implements AccountLimits {
 
-    private Customer customer;
-    private AccountType accountType;
-    private Title title;
+    private final AccountType accountType;
+    private static final int WITHDRAWAL_LIMIT = 1;
+    private static final int MAX_DAILY_TRANSFERS = 10;
+    private static final double MAX_DAILY_TRANSFER_AMOUNT = 10000;
 
-    public BankAccount(Title title, Customer customer, AccountType accountType, long accountNumber, double balance) {
-        super(accountNumber, balance);
-        this.customer = customer;
+    public BankAccount(Customer customer, AccountType accountType, long accountNumber, double balance) {
+        super(customer, accountNumber, balance);
         this.accountType = accountType;
-        this.title = title;
+    }
+    @Override
+    public double withdrawalLimit() {
+        return WITHDRAWAL_LIMIT;
     }
 
-    public BankAccount () {
+    @Override
+    public int maxDailyTransfers () {
+        return MAX_DAILY_TRANSFERS;
+    }
+
+    @Override
+    public double maxDailyTransferAmount () {
+        return MAX_DAILY_TRANSFER_AMOUNT;
     }
 
     public Customer getCustomer() {
         return customer;
     }
-    public void setCustomer(Customer customer) {
-        this.customer = customer;
-    }
-    public AccountType getAccountType() {
-        return accountType;
+    public void setCard(Card card) {
+        this.card = card;
     }
 
-    public void setAccountType(AccountType accountType) {
-        this.accountType = accountType;
-    }
-
-    public Title getTitle() {
-        return title;
-    }
-
-    public void setTitle(Title title) {
-        this.title = title;
-    }
-
+    @Override
     public String toString() {
-        return "Account owner: " + "(" + title + ") " + customer.getFirstName() + " " + customer.getLastName() +
+        return "Account owner: " + getCustomer().getFirstName() + " " + getCustomer().getLastName() +
                 "\nAccount type: " + accountType +
                 "\nAccount number: " + getAccountNumber() +
                 "\nBalance: " + getBalance() + " PLN";

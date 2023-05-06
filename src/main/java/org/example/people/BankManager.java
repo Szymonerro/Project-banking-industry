@@ -1,42 +1,29 @@
 package org.example.people;
 
 import org.example.enums.Position;
-import org.example.interfaces.BankManagerDuties;
+import org.example.enums.Title;
 
-public class BankManager extends Human implements BankManagerDuties {
+public class BankManager extends Person {
 
-    private int employeeId;
-    private Position position;
+    private final int employeeId;
+    private final Position position;
 
-    public BankManager(String firstName, String lastName, int age, String address, int employeeId, Position position) {
-        super(firstName, lastName, age, address);
+    public BankManager(Title title, String firstName, String lastName, int age, String address, int employeeId, Position position, double salary) {
+        super(title, firstName, lastName, age, address, salary);
         this.employeeId = employeeId;
         this.position = position;
     }
 
-    public BankManager() {
-
-    }
-
-    @Override
-    public void hireNewEmployee(Human human) {
-
+@Override
+    public boolean isAdult() {
+    return age >= 18;
     }
 
     public int getEmployeeId() {
         return employeeId;
     }
-
-    public void setEmployeeId(int employeeId) {
-        this.employeeId = employeeId;
-    }
-
     public Position getPosition() {
         return position;
-    }
-
-    public void setPosition(Position position) {
-        this.position = position;
     }
 
     public String toString() {

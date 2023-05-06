@@ -1,34 +1,42 @@
 package org.example.people;
 
+import org.example.enums.Title;
+
 import java.util.Objects;
 
-public abstract class Human {
+public abstract class Person {
+    private Title title;
     private String firstName;
     private String lastName;
-    private int age;
+    protected int age;
     protected String address;
+    protected double salary;
 
-    public Human (String firstName, String lastName, int age, String address) {
+    public Person(Title title, String firstName, String lastName, int age, String address, double salary) {
+        this.title = title;
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
         this.address = address;
+        this.salary = salary;
     }
 
-    public Human () {
+    public Person() {
 
     }
+
+    public abstract boolean isAdult();
 
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        Human human = (Human) o;
+        Person person = (Person) o;
 
-        if (age != human.age) return false;
-        if (!Objects.equals(firstName, human.firstName)) return false;
-        if (!Objects.equals(lastName, human.lastName)) return false;
-        return Objects.equals(address, human.address);
+        if (age != person.age) return false;
+        if (!Objects.equals(firstName, person.firstName)) return false;
+        if (!Objects.equals(lastName, person.lastName)) return false;
+        return Objects.equals(address, person.address);
     }
 
     public int hashCode() {
@@ -39,36 +47,23 @@ public abstract class Human {
         return result;
     }
 
-
+    public Title getTitle() {
+        return title;
+    }
     public String getFirstName() {
         return firstName;
     }
-
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
     public String getLastName() {
         return lastName;
     }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-
     public int getAge() {
         return age;
     }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
     public String getAddress() {
         return address;
     }
-
-    public void setAddress(String address) {
-        this.address = address;
+    public double getSalary() {
+        return salary;
     }
+
 }

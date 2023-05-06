@@ -1,63 +1,49 @@
 package org.example.account;
 
 import org.example.enums.AccountType;
-import org.example.enums.Title;
+import org.example.interfaces.AccountLimits;
 import org.example.people.Customer;
 
-public class SavingsAccount extends Account{
+public class SavingsAccount extends Account implements AccountLimits {
 
-    private Customer customer;
-    private AccountType accountType;
-    private Title title;
-    private int interestRate;
+    private final AccountType accountType;
+    private final int interestRate;
+    private static final int WITHDRAWAL_LIMIT = 10;
+    private static final int MAX_DAILY_TRANSFERS = 5;
+    private static final double MAX_DAILY_TRANSFER_AMOUNT = 15000;
 
-
-    public SavingsAccount(Title title, Customer customer, AccountType accountType, long accountNumber, int interestRate, double balance) {
-        super(accountNumber, balance);
-        this.customer = customer;
+    public SavingsAccount(Customer customer, AccountType accountType, long accountNumber, int interestRate, double balance) {
+        super(customer, accountNumber, balance);
         this.accountType = accountType;
         this.interestRate = interestRate;
-        this.title = title;
     }
 
-    public SavingsAccount () {
-
+    @Override
+    public double withdrawalLimit() {
+        return WITHDRAWAL_LIMIT;
+    }
+    @Override
+    public int maxDailyTransfers () {
+        return MAX_DAILY_TRANSFERS;
+    }
+    @Override
+    public double maxDailyTransferAmount () {
+        return MAX_DAILY_TRANSFER_AMOUNT;
     }
 
     public Customer getCustomer() {
         return customer;
     }
-
     public void setCustomer(Customer customer) {
         this.customer = customer;
     }
-
-    public AccountType getAccountType() {
-        return accountType;
-    }
-
-    public void setAccountType(AccountType accountType) {
-        this.accountType = accountType;
-    }
-
     public int getInterestRate() {
         return interestRate;
     }
 
-    public void setInterestRate(int interestRate) {
-        this.interestRate = interestRate;
-    }
-
-    public Title getTitle() {
-        return title;
-    }
-
-    public void setTitle(Title title) {
-        this.title = title;
-    }
-
+    @Override
     public String toString() {
-        return "Account owner: " + "(" + title + ") " + customer.getFirstName() + " " + customer.getLastName() +
+        return "Account owner: " + customer.getFirstName() + " " + customer.getLastName() +
                 "\nAccount type: " + accountType +
                 "\nAccount number: " + getAccountNumber() +
                 "\nInterest rate: " + getInterestRate() + "%" +
