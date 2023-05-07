@@ -1,2 +1,2 @@
 # Solvd
-homeworks
+Bank - project
