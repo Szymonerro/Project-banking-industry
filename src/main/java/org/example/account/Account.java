@@ -1,23 +1,26 @@
 package org.example.account;
 
 import org.example.card.Card;
-import org.example.interfaces.AccountLimits;
+import org.example.enums.AccountType;
+import org.example.interfaces.IAccountLimits;
 import org.example.people.Customer;
 
-public abstract class Account implements AccountLimits {
+public abstract class Account implements IAccountLimits {
     protected Customer customer;
     private final long accountNumber;
+    protected final AccountType accountType;
     private double balance;
     private int dailyTransfersCount;
     private double dailyTransfersAmount;
     private int withdrawalLimitCount;
-    private static final int WITHDRAWAL_LIMIT = 10;
-    private static final int MAX_DAILY_TRANSFERS = 0;
-    private static final double MAX_DAILY_TRANSFER_AMOUNT = 0;
+    protected int withdrawalLimit = 10;
+    protected int maxDailyTransfers = 10;
+    protected double maxDailyTransferAmount = 10000;
     protected Card card;
 
-    public Account(Customer customer, long accountNumber, double balance) {
+    public Account(Customer customer, AccountType accountType, long accountNumber, double balance) {
         this.customer = customer;
+        this.accountType = accountType;
         this.accountNumber = accountNumber;
         this.balance = balance;
     }
@@ -37,49 +40,65 @@ public abstract class Account implements AccountLimits {
     public void updateDailyTransfersAmount(double amount) {
         setDailyTransfersAmount(getDailyTransfersAmount() + amount);
     }
+
     public void setCard(Card card) {
         this.card = card;
     }
 
     @Override
-    public double withdrawalLimit() {
-        return WITHDRAWAL_LIMIT;
+    public void changeWithdrawalLimit(int newLimit) {
+        withdrawalLimit = newLimit;
+        System.out.println("Daily withdrawal limit changed successfully.\n" +
+                "New limit: " + withdrawalLimit + "\n");
     }
 
     @Override
-    public int maxDailyTransfers() {
-        return MAX_DAILY_TRANSFERS;
+    public void changeMaxDailyTransfers(int newLimit) {
+        maxDailyTransfers = newLimit;
+        System.out.println("Daily transfer limit changed successfully.\n" +
+                "New limit: " + maxDailyTransfers + "\n");
+
     }
 
     @Override
-    public double maxDailyTransferAmount() {
-        return MAX_DAILY_TRANSFER_AMOUNT;
+    public void changeMaxDailyTransferAmount(double newLimit) {
+        maxDailyTransferAmount = newLimit;
+        System.out.println("Daily transfer amount limit changed successfully.\n" +
+                "New limit: " + maxDailyTransferAmount + "\n");
     }
 
     public int getWithdrawalLimitCount() {
         return withdrawalLimitCount;
     }
+
     public void setWithdrawalLimitCount(int withdrawalLimitCount) {
         this.withdrawalLimitCount = withdrawalLimitCount;
     }
+
     public long getAccountNumber() {
         return accountNumber;
     }
+
     public double getBalance() {
         return balance;
     }
+
     public void setBalance(double balance) {
         this.balance = balance;
     }
+
     public int getDailyTransfersCount() {
         return dailyTransfersCount;
     }
+
     public void setDailyTransfersCount(int dailyTransfersCount) {
         this.dailyTransfersCount = dailyTransfersCount;
     }
+
     public double getDailyTransfersAmount() {
         return dailyTransfersAmount;
     }
+
     public void setDailyTransfersAmount(double dailyTransfersAmount) {
         this.dailyTransfersAmount = dailyTransfersAmount;
     }
@@ -88,5 +107,17 @@ public abstract class Account implements AccountLimits {
     public String toString() {
         return "Account number: " + getAccountNumber() +
                 "\nBalance: " + getBalance() + " PLN";
+    }
+
+    public int getWithdrawalLimit() {
+        return withdrawalLimit;
+    }
+
+    public int getMaxDailyTransfers() {
+        return maxDailyTransfers;
+    }
+
+    public double getMaxDailyTransferAmount() {
+        return maxDailyTransferAmount;
     }
 }

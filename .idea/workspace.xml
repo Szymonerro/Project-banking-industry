@@ -1,30 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4b2c10b-2fc0-4cf7-b8cb-e7f0c6df8384" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Project_Requirements" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exceptions/InsufficientFundsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exceptions/TransferFailedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exceptions/TransferLimitExceededException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exceptions/TransfersAmountLimitException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exceptions/WrongAmountException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interfaces/AccountLimits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interfaces/BlockCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interfaces/LoanCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedLists/AccountNumbersManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/linkedLists/BranchEmployeeManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/operations/CreditRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/utils/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/utils/LoanCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/AppStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/collectionStream/AdultCustomersStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/collectionStream/AverageAgeStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/collectionStream/CustomerCountStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/collectionStream/CustomerCreditScoreStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/collectionStream/CustomerNameCollectionStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/collectionStream/CustomerSalaryStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/collectionStream/FemaleCustomersStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/collectionStream/MaleCustomersStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/connectionPool/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/connectionPool/Connection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/connectionPool/ConnectionPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/connectionPoolFuture/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/connectionPoolFuture/Connection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/connectionPoolFuture/ConnectionPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/enums/CardBrand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/enums/Currency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/enums/EmploymentContractType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/enums/TransactionStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interfaces/IAccountLimits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interfaces/IWelcomeApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/threads/RunnableInterfaceExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/threads/ThreadClassExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/utils/CreditScoreCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/utils/LambdaExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/utils/ReflectionUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/utils/UniqueWordsCounterUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CustomerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Bank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BubbleSort.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Project_Requirements" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Project_Requirements" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/account/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/account/Account.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/account/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/account/BankAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/account/BusinessAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/account/BusinessAccount.java" afterDir="false" />
@@ -33,24 +48,28 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/card/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/card/Card.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/card/CreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/card/CreditCard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/card/DebitCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/card/DebitCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/enums/AccountType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/enums/AccountType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/enums/CardType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/enums/CardType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/enums/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/enums/Color.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/enums/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/enums/Position.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/enums/Title.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/enums/Title.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/enums/TransactionType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/enums/TransferType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/interfaces/BankEmployeeDuties.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/interfaces/BankManagerDuties.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/interfaces/CreditScoring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/interfaces/CreditScoring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/enums/TransferType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/enums/TransferType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/interfaces/AccountLimits.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/interfaces/BlockCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/interfaces/IBlockCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/interfaces/CreditScoring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/interfaces/ICreditScoring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/interfaces/LoanCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/interfaces/ILoanCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/operations/CheckBalance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/operations/CheckBalance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/operations/CreditRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/operations/CreditRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/operations/Deposit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/operations/Deposit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/operations/Loan.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/operations/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/operations/Transaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/operations/TransactionHistory.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/operations/Transfer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/operations/Transfer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/operations/Withdraw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/operations/Withdraw.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/people/BankEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/people/BankEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/people/BankManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/people/BankManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/people/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/people/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/people/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/people/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/people/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/people/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/utils/LoanCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/utils/LoanCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transfer.log" beforeDir="false" afterPath="$PROJECT_DIR$/transfer.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,8 +79,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -71,13 +90,6 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -90,32 +102,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/apache-log4j-2.20.0-bin/log4j-core-2.20.0.jar",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/usr/Desktop/Solvd/PROJECTS/BANK/lib/log4j-core-2.20.0.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "JAVA"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JAVA&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.example.interfaces" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\usr\Desktop\Solvd\PROJECTS\BANK" />
       <recent name="C:\Users\usr\Desktop\Solvd\PROJECTS\HOMEWORK1\SecondHomework\src\main\java\org\example" />
       <recent name="C:\Users\usr\Desktop\Solvd\PROJECTS\HOMEWORK1\SecondHomework\src\main\java\org\example\interfaces" />
       <recent name="C:\Users\usr\Desktop\Solvd\HW\" />
@@ -125,9 +138,35 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.connectionPool.Client" />
+      <module name="BankProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.connectionPool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Connection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.connection2.Connection" />
+      <module name="BankProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.connection2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
-      <module name="SecondHomework" />
+      <module name="BankProject" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.operations.*" />
@@ -138,12 +177,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Test" />
-      <module name="SecondHomework" />
+    <configuration name="org.example.connectionPoolFuture.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.connectionPoolFuture.Client" />
+      <module name="BankProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.operations.*" />
+          <option name="PATTERN" value="org.example.connectionPoolFuture.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,7 +192,7 @@
     </configuration>
     <configuration name="org.example.operations.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.operations.Main" />
-      <module name="SecondHomework" />
+      <module name="BankProject" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.operations.*" />
@@ -167,8 +206,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.org.example.connectionPoolFuture.Client" />
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.org.example.operations.Main" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Connection" />
       </list>
     </recent_temporary>
   </component>

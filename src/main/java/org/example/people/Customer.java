@@ -1,22 +1,24 @@
 package org.example.people;
 
+import org.example.enums.EmploymentContractType;
 import org.example.enums.Title;
-import org.example.interfaces.CreditScoring;
+import org.example.interfaces.ICreditScoring;
 
-public class Customer extends Person implements CreditScoring {
+public class Customer extends Person implements ICreditScoring {
     private String companyName;
     private int taxNum;
     private int creditScore;
     private double totalInstallments;
 
-    public Customer(Title title, String firstName, String lastName, int age, String address, double salary) {
+    public Customer(Title title, String firstName, String lastName, int age, String address, EmploymentContractType employmentContractType, double salary) {
         super(title, firstName, lastName, age, address, salary);
+        this.employmentContractType = employmentContractType;
     }
 
     public Customer(String companyName, int taxNum, String address) {
-        this.address = address;
         this.companyName = companyName;
         this.taxNum = taxNum;
+        this.address = address;
     }
 
     @Override
@@ -26,7 +28,7 @@ public class Customer extends Person implements CreditScoring {
 
     @Override
     public void creditScoring() {
-        if (age < 18 || age > 80 || salary < 1000 || totalInstallments > (salary / 2)) {
+        if (age < 18 || age > 80 || salary < 1000 || totalInstallments > (salary / 2) || employmentContractType == EmploymentContractType.UNEMPLOYED) {
             setCreditScore(0);
             System.out.println("We're sorry, but your credit score is 0 pts. for the moment.\n");
         } else if (salary >= 1000 && salary < 3000) {
@@ -53,15 +55,19 @@ public class Customer extends Person implements CreditScoring {
         }
     }
 
+
     public String getCompanyName() {
         return companyName;
     }
+
     public int getCreditScore() {
         return creditScore;
     }
+
     public void setCreditScore(int creditScore) {
         this.creditScore = creditScore;
     }
+
     public double getTotalInstallments() {
         return totalInstallments;
     }

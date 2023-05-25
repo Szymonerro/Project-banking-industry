@@ -1,6 +1,6 @@
 package org.example.interfaces;
 
-public interface BlockCard {
+public interface IBlockCard {
     void block();
     void unblock();
     boolean isBlocked();

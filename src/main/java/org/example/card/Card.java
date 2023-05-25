@@ -1,18 +1,31 @@
 package org.example.card;
 import org.example.account.Account;
-import org.example.interfaces.BlockCard;
+import org.example.enums.CardBrand;
+import org.example.enums.CardType;
+import org.example.enums.Color;
+import org.example.interfaces.IBlockCard;
 import org.example.people.Customer;
 
-public abstract class Card implements BlockCard {
+public abstract class Card implements IBlockCard {
     protected Customer customer;
-    protected long cardNumber;
     protected Account account;
+    CardBrand cardBrand;
+    Color color;
+    CardType cardType;
+    protected long cardNumber;
     private boolean blocked = false;
 
-    public Card(Customer customer, long cardNumber, Account account) {
+    public Card(CardType cardType, Customer customer, long cardNumber, Color color, Account account, CardBrand cardBrand) {
+        this.color = color;
+        this.cardType = cardType;
         this.customer = customer;
         this.cardNumber = cardNumber;
         this.account = account;
+        this.cardBrand = cardBrand;
+    }
+
+    public Card (){
+
     }
 
     public String checkOwner () {

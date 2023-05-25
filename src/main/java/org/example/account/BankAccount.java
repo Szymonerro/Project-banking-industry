@@ -1,47 +1,40 @@
 package org.example.account;
 
-import org.example.card.Card;
 import org.example.enums.AccountType;
-import org.example.interfaces.AccountLimits;
+import org.example.interfaces.IAccountLimits;
 import org.example.people.Customer;
 
-public class BankAccount extends Account implements AccountLimits {
+public class BankAccount extends Account implements IAccountLimits {
 
-    private final AccountType accountType;
-    private static final int WITHDRAWAL_LIMIT = 1;
-    private static final int MAX_DAILY_TRANSFERS = 10;
-    private static final double MAX_DAILY_TRANSFER_AMOUNT = 10000;
-
-    public BankAccount(Customer customer, AccountType accountType, long accountNumber, double balance) {
-        super(customer, accountNumber, balance);
-        this.accountType = accountType;
-    }
-    @Override
-    public double withdrawalLimit() {
-        return WITHDRAWAL_LIMIT;
+    public BankAccount(Customer customer, long accountNumber, double balance) {
+        super(customer, AccountType.PRIVATE, accountNumber, balance);
     }
 
     @Override
-    public int maxDailyTransfers () {
-        return MAX_DAILY_TRANSFERS;
+    public void changeWithdrawalLimit(int newLimit) {
+        this.withdrawalLimit = newLimit;
     }
 
     @Override
-    public double maxDailyTransferAmount () {
-        return MAX_DAILY_TRANSFER_AMOUNT;
+    public void changeMaxDailyTransfers(int newLimit) {
+        this.maxDailyTransfers = newLimit;
     }
+
+    @Override
+    public void changeMaxDailyTransferAmount(double newLimit) {
+        this.maxDailyTransferAmount = newLimit;
+    }
+
 
     public Customer getCustomer() {
         return customer;
     }
-    public void setCard(Card card) {
-        this.card = card;
-    }
+
 
     @Override
     public String toString() {
         return "Account owner: " + getCustomer().getFirstName() + " " + getCustomer().getLastName() +
-                "\nAccount type: " + accountType +
+                "\nAccount type: " + accountType.getDescription() +
                 "\nAccount number: " + getAccountNumber() +
                 "\nBalance: " + getBalance() + " PLN";
     }

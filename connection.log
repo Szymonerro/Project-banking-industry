@@ -1,0 +1,46 @@
+2023-05-23 18:21:33,312 INFO o.e.c.Client [pool-2-thread-1] (Client/Thread ID: 18) - Waiting for a connection. Waiting clients: 1
+2023-05-23 18:21:33,405 INFO o.e.c.Client [pool-2-thread-2] (Client/Thread ID: 19) - Waiting for a connection. Waiting clients: 2
+2023-05-23 18:21:33,515 INFO o.e.c.Client [pool-2-thread-3] (Client/Thread ID: 20) - Waiting for a connection. Waiting clients: 3
+2023-05-23 18:21:33,622 INFO o.e.c.Client [pool-2-thread-4] (Client/Thread ID: 21) - Waiting for a connection. Waiting clients: 4
+2023-05-23 18:21:33,732 INFO o.e.c.Client [pool-2-thread-5] (Client/Thread ID: 22) - Waiting for a connection. Waiting clients: 5
+2023-05-23 18:21:33,842 INFO o.e.c.Client [pool-2-thread-6] (Client/Thread ID: 23) - Waiting for a connection. Waiting clients: 6
+2023-05-23 18:21:33,953 INFO o.e.c.Client [pool-2-thread-7] (Client/Thread ID: 24) - Waiting for a connection. Waiting clients: 7
+2023-05-23 18:21:35,325 INFO o.e.c.Connection [pool-2-thread-1] Client/Thread ID: 18) - Successfully connected to the database. Connection ID: 1. Waiting clients: 6
+2023-05-23 18:21:35,419 INFO o.e.c.Connection [pool-2-thread-2] Client/Thread ID: 19) - Successfully connected to the database. Connection ID: 2. Waiting clients: 5
+2023-05-23 18:21:35,517 INFO o.e.c.Connection [pool-2-thread-3] Client/Thread ID: 20) - Successfully connected to the database. Connection ID: 3. Waiting clients: 4
+2023-05-23 18:21:35,626 INFO o.e.c.Connection [pool-2-thread-4] Client/Thread ID: 21) - Successfully connected to the database. Connection ID: 4. Waiting clients: 3
+2023-05-23 18:21:35,735 INFO o.e.c.Connection [pool-2-thread-5] Client/Thread ID: 22) - Successfully connected to the database. Connection ID: 5. Waiting clients: 2
+2023-05-23 18:21:38,339 INFO o.e.c.Connection [pool-2-thread-1] (Client/Thread ID: 18) - Released connection. Connection ID: 1. Waiting clients: 2
+2023-05-23 18:21:38,340 INFO o.e.c.Connection [pool-2-thread-6] Client/Thread ID: 23) - Successfully connected to the database. Connection ID: 1. Waiting clients: 1
+2023-05-23 18:21:38,432 INFO o.e.c.Connection [pool-2-thread-2] (Client/Thread ID: 19) - Released connection. Connection ID: 2. Waiting clients: 1
+2023-05-23 18:21:38,433 INFO o.e.c.Connection [pool-2-thread-7] Client/Thread ID: 24) - Successfully connected to the database. Connection ID: 2. Waiting clients: 0
+2023-05-23 18:21:38,523 INFO o.e.c.Connection [pool-2-thread-3] (Client/Thread ID: 20) - Released connection. Connection ID: 3. Waiting clients: 0
+2023-05-23 18:21:38,631 INFO o.e.c.Connection [pool-2-thread-4] (Client/Thread ID: 21) - Released connection. Connection ID: 4. Waiting clients: 0
+2023-05-23 18:21:38,739 INFO o.e.c.Connection [pool-2-thread-5] (Client/Thread ID: 22) - Released connection. Connection ID: 5. Waiting clients: 0
+2023-05-23 18:21:41,347 INFO o.e.c.Connection [pool-2-thread-6] (Client/Thread ID: 23) - Released connection. Connection ID: 1. Waiting clients: 0
+2023-05-23 18:21:41,441 INFO o.e.c.Connection [pool-2-thread-7] (Client/Thread ID: 24) - Released connection. Connection ID: 2. Waiting clients: 0
+2023-05-23 18:21:46,082 INFO o.e.c.ConnectionPool [pool-3-thread-1] 
+No more waiting clients. Shutting down connections.
+2023-05-25 12:54:19,050 INFO o.e.c.Client [pool-2-thread-1] (Client/Thread ID: 18) - Waiting for a connection. Waiting clients: 1
+2023-05-25 12:54:19,126 INFO o.e.c.Client [pool-2-thread-2] (Client/Thread ID: 19) - Waiting for a connection. Waiting clients: 2
+2023-05-25 12:54:19,234 INFO o.e.c.Client [pool-2-thread-3] (Client/Thread ID: 20) - Waiting for a connection. Waiting clients: 3
+2023-05-25 12:54:19,345 INFO o.e.c.Client [pool-2-thread-4] (Client/Thread ID: 21) - Waiting for a connection. Waiting clients: 4
+2023-05-25 12:54:19,454 INFO o.e.c.Client [pool-2-thread-5] (Client/Thread ID: 22) - Waiting for a connection. Waiting clients: 5
+2023-05-25 12:54:19,564 INFO o.e.c.Client [pool-2-thread-6] (Client/Thread ID: 23) - Waiting for a connection. Waiting clients: 6
+2023-05-25 12:54:19,675 INFO o.e.c.Client [pool-2-thread-7] (Client/Thread ID: 24) - Waiting for a connection. Waiting clients: 7
+2023-05-25 12:54:21,064 INFO o.e.c.Connection [pool-2-thread-1] (Client/Thread ID: 18) - Successfully connected to the database. Connection ID: 1. Waiting clients: 6
+2023-05-25 12:54:21,142 INFO o.e.c.Connection [pool-2-thread-2] (Client/Thread ID: 19) - Successfully connected to the database. Connection ID: 2. Waiting clients: 5
+2023-05-25 12:54:21,236 INFO o.e.c.Connection [pool-2-thread-3] (Client/Thread ID: 20) - Successfully connected to the database. Connection ID: 3. Waiting clients: 4
+2023-05-25 12:54:21,360 INFO o.e.c.Connection [pool-2-thread-4] (Client/Thread ID: 21) - Successfully connected to the database. Connection ID: 4. Waiting clients: 3
+2023-05-25 12:54:21,456 INFO o.e.c.Connection [pool-2-thread-5] (Client/Thread ID: 22) - Successfully connected to the database. Connection ID: 5. Waiting clients: 2
+2023-05-25 12:54:24,066 INFO o.e.c.Connection [pool-2-thread-1] (Client/Thread ID: 18) - Released connection. Connection ID: 1. Waiting clients: 2
+2023-05-25 12:54:24,066 INFO o.e.c.Connection [pool-2-thread-6] (Client/Thread ID: 23) - Successfully connected to the database. Connection ID: 1. Waiting clients: 1
+2023-05-25 12:54:24,144 INFO o.e.c.Connection [pool-2-thread-2] (Client/Thread ID: 19) - Released connection. Connection ID: 2. Waiting clients: 1
+2023-05-25 12:54:24,144 INFO o.e.c.Connection [pool-2-thread-7] (Client/Thread ID: 24) - Successfully connected to the database. Connection ID: 2. Waiting clients: 0
+2023-05-25 12:54:24,240 INFO o.e.c.Connection [pool-2-thread-3] (Client/Thread ID: 20) - Released connection. Connection ID: 3. Waiting clients: 0
+2023-05-25 12:54:24,367 INFO o.e.c.Connection [pool-2-thread-4] (Client/Thread ID: 21) - Released connection. Connection ID: 4. Waiting clients: 0
+2023-05-25 12:54:24,461 INFO o.e.c.Connection [pool-2-thread-5] (Client/Thread ID: 22) - Released connection. Connection ID: 5. Waiting clients: 0
+2023-05-25 12:54:27,068 INFO o.e.c.Connection [pool-2-thread-6] (Client/Thread ID: 23) - Released connection. Connection ID: 1. Waiting clients: 0
+2023-05-25 12:54:27,145 INFO o.e.c.Connection [pool-2-thread-7] (Client/Thread ID: 24) - Released connection. Connection ID: 2. Waiting clients: 0
+2023-05-25 12:54:31,802 INFO o.e.c.ConnectionPool [pool-3-thread-1] 
+No more waiting clients. Shutting down connections.

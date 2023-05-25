@@ -5,11 +5,8 @@ import org.example.people.Customer;
 
 public class InvestmentAccount extends Account {
 
-    private final AccountType accountType;
-
-    public InvestmentAccount(Customer customer, AccountType accountType, long accountNumber, double balance) {
-        super(customer, accountNumber, balance);
-        this.accountType = accountType;
+    public InvestmentAccount(Customer customer, long accountNumber, double balance) {
+        super(customer, AccountType.INVESTMENT, accountNumber, balance);
     }
 
     public Customer getCustomer() {

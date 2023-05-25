@@ -21,10 +21,10 @@
 #Create and override at least one abstract method. ✔           // isAdult method in Human class
 #Use at protected modifier at least 5 times ✔                  // 2x Human class, 2x Card class, 2x Transaction class
 #Override methods from class Object (toString(), hashcode(), equals()) for at least 3 classes from the hierarchy. ✔   // hashCode() and equals() methods are in Human class, toString for example: Customer, CreditCard classes.
-  *!Add 5 interfaces to the existing hierarchy. ✔
+#Add 5 interfaces to the existing hierarchy. ✔
 #Use polymorphism with the abstract class and interface from the hierarchy. ✔    // eg. equals() or isAdult() method in Human abstract class, interface: LoanCalculator
 #Create final class, method, variable. ✔                       // class: CheckBalance , methods: deposit and withdraw, variable: accountNumber
-   Create a static block, method, variable.                       // block: , method: checkBalance, variables: accountMaintenanceFee, bankName
+#Create a static block, method, variable.                       // block: AppStart, method: checkBalance, variables: accountMaintenanceFee, bankName
 #Create 5 custom exceptions. ✔
 #Handle exceptions in 2 ways. ✔                                // transfer method has both ways of exceptions included
 #Use try-catch with resources. ✔                               // transfer method
@@ -35,8 +35,16 @@
 #Create custom implementation of LinkedList with generic and use it in your project. ✔
 #Move all projects to Maven. ✔
 #Build jar file and deploy to the local repository. ✔
-Add and use 2 Plugins.
-Run mvn for different phases from the Maven lifecycle. Check the result.
-
-Read text from the file and calculate the numbers of the unique words. Write the result to the file.
-The main requirement is: using StringUtils and FileUtils to implement it with minimum lines of code.
+#Add and use 2 Plugins. ✔
+#Run mvn for different phases from the Maven lifecycle. Check the result. ✔
+#Read text from the file and calculate the numbers of the unique words. Write the result to the file. ✔
+#The main requirement is: using StringUtils and FileUtils to implement it with minimum lines of code. (StringUtils FileUtils, Debugging) ✔
+#Use at least 5 lambda functions from the java.util.function package. ✔
+#Create 3 custom Lambda functions with generics. ✔
+#Create 5 complex Enums(with fields, methods, blocks). ✔
+#Add 7 collection streaming in the hierarchy with terminal and non-terminal operations. ✔
+#Using reflection extract information(modifiers, return types, parameters, etc) about fields, constructors, methods. Create object and call method using the only reflection. ✔
+#Create 2 Threads using Runnable and Thread. ✔
+#Create Connection Pool. Use collection from java.util.concurrent package. Connection class may be mocked. The pool should be threadsafe and lazy initialized. ✔
+#Initialize Connection Pool object of size 5. Load Connection Pool using single threads and Java Thread Pool (7 threads in total). 5 threads should be able to get the connectionFirstExample. 2 Threads should wait for the next available connectionFirstExample. The program should wait as well. ✔
+#Implement previous point but with interfaces Future and CompletableStage. ✔

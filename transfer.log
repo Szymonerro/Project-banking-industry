@@ -149,3 +149,387 @@ java.lang.NullPointerException: Cannot invoke "org.example.card.Card.isBlocked()
 2023-05-06 20:38:50,588 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
 2023-05-06 20:39:14,761 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
 2023-05-06 20:42:14,710 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-07 15:47:10,582 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-07 15:58:20,755 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-07 16:14:27,091 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-07 16:14:27,098 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-07 17:29:03,605 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-07 17:29:03,611 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-07 17:30:03,962 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-07 17:30:03,968 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-07 17:40:29,718 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-07 17:40:29,726 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-07 17:40:47,836 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-07 17:40:47,842 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-07 18:35:32,945 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-07 18:35:32,951 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-07 18:37:22,069 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-07 18:37:22,077 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-07 18:47:20,896 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-07 18:47:20,904 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-07 21:18:34,921 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-07 21:18:34,927 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-09 15:30:30,582 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-09 15:30:30,590 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-12 11:57:58,270 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-12 11:57:58,277 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-12 13:32:26,331 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-12 13:32:26,339 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-12 13:51:25,728 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-12 13:51:25,735 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-12 13:53:46,387 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-12 13:53:46,395 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-12 13:54:05,545 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-12 13:54:05,553 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-12 13:59:24,791 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-12 13:59:24,798 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-12 14:03:59,110 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-12 14:03:59,117 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-12 14:07:29,113 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-12 14:07:29,120 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-12 16:25:17,763 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-12 16:25:17,768 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-12 16:25:59,589 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-12 16:25:59,595 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-12 16:36:41,934 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-12 16:36:41,941 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-14 10:29:24,167 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-14 10:29:24,177 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-14 10:55:42,552 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-14 10:55:42,561 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-14 10:56:42,303 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-14 10:56:42,319 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-14 10:57:26,139 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-14 10:57:26,150 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-14 14:41:15,496 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-14 14:41:15,507 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-14 15:04:04,972 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-14 15:04:04,981 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-14 15:05:36,702 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-14 15:05:36,719 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-14 15:07:17,123 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-14 15:07:17,131 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-16 12:41:37,526 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-16 12:41:37,531 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-16 13:22:42,798 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-16 13:22:42,802 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-16 13:39:12,056 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-16 13:39:12,061 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-16 15:13:27,520 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-16 15:13:27,523 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-16 15:24:49,663 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-16 15:24:49,667 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-16 15:50:27,018 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-16 15:50:27,022 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-16 15:55:15,045 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-16 15:55:15,049 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-16 15:57:33,263 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-16 15:57:33,267 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-16 15:59:19,564 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-16 15:59:19,568 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-16 16:00:49,389 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-16 16:00:49,393 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-16 16:05:33,758 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-16 16:05:33,762 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-16 16:39:27,048 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-16 16:39:27,053 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-16 16:48:56,826 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-16 16:48:56,830 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-16 16:53:27,727 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-16 16:53:27,731 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-16 17:00:33,111 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-16 17:00:33,116 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-16 17:01:13,966 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-16 17:01:13,972 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-16 17:01:29,426 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-16 17:01:29,431 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-16 17:02:21,185 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-16 17:02:21,189 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-16 17:02:53,430 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-16 17:02:53,435 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-16 19:26:21,278 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-16 19:26:21,283 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-16 19:32:35,746 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-16 19:32:35,750 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-16 19:56:41,587 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-16 19:56:41,593 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-16 20:10:16,965 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-16 20:10:16,970 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-16 20:17:55,190 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-16 20:17:55,195 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-16 20:27:00,086 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-16 20:27:00,090 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-16 20:58:24,423 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-16 20:58:24,434 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-19 07:32:38,656 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-19 07:32:38,662 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-19 07:53:20,273 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-19 07:53:20,278 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-19 08:00:11,102 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-19 08:00:11,106 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-19 08:04:10,126 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-19 08:04:10,130 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-19 08:15:05,241 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-19 08:15:05,244 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-19 13:27:57,459 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-19 13:27:57,464 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-19 13:51:00,038 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-19 13:51:00,044 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-19 14:46:50,840 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-19 14:46:50,845 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-19 14:49:56,340 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-19 14:49:56,343 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-19 15:14:26,445 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-19 15:14:26,448 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-19 15:37:18,632 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-19 15:37:18,636 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-19 15:45:19,124 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-19 15:45:19,128 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-19 15:52:50,077 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-19 15:52:50,081 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-19 15:55:29,276 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-19 15:55:29,280 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-19 16:21:21,586 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-19 16:21:21,590 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-19 16:22:28,177 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-19 16:22:28,180 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-19 16:25:35,513 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-19 16:25:35,517 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-19 16:44:59,015 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-19 16:44:59,020 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-19 16:47:29,350 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-19 16:47:29,355 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-19 16:48:47,960 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-19 16:48:47,964 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-19 16:51:40,151 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-19 16:51:40,155 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-19 16:57:01,757 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-19 16:57:01,760 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-19 16:58:13,403 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-19 16:58:13,408 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-19 17:24:18,661 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-19 17:24:18,666 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-20 13:09:43,339 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-20 13:09:43,343 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-23 17:01:42,825 INFO o.e.c.Client [pool-2-thread-1] Client 1 (Thread ID: 18) - Waiting for a connection. Waiting clients: 1
+2023-05-23 17:01:42,911 INFO o.e.c.Client [pool-2-thread-2] Client 2 (Thread ID: 19) - Waiting for a connection. Waiting clients: 2
+2023-05-23 17:01:43,017 INFO o.e.c.Client [pool-2-thread-3] Client 3 (Thread ID: 20) - Waiting for a connection. Waiting clients: 3
+2023-05-23 17:01:43,125 INFO o.e.c.Client [pool-2-thread-4] Client 4 (Thread ID: 21) - Waiting for a connection. Waiting clients: 4
+2023-05-23 17:01:43,233 INFO o.e.c.Client [pool-2-thread-5] Client 5 (Thread ID: 22) - Waiting for a connection. Waiting clients: 5
+2023-05-23 17:01:43,339 INFO o.e.c.Client [pool-2-thread-6] Client 6 (Thread ID: 23) - Waiting for a connection. Waiting clients: 6
+2023-05-23 17:01:43,449 INFO o.e.c.Client [pool-2-thread-7] Client 7 (Thread ID: 24) - Waiting for a connection. Waiting clients: 7
+2023-05-23 17:01:44,846 INFO o.e.c.Connection [pool-2-thread-1] Client 1 (Thread ID: 18) - Successfully connected to the database. Connection ID: 1. Waiting clients: 6
+2023-05-23 17:01:44,924 INFO o.e.c.Connection [pool-2-thread-2] Client 2 (Thread ID: 19) - Successfully connected to the database. Connection ID: 2. Waiting clients: 5
+2023-05-23 17:01:45,032 INFO o.e.c.Connection [pool-2-thread-3] Client 3 (Thread ID: 20) - Successfully connected to the database. Connection ID: 3. Waiting clients: 4
+2023-05-23 17:01:45,141 INFO o.e.c.Connection [pool-2-thread-4] Client 4 (Thread ID: 21) - Successfully connected to the database. Connection ID: 4. Waiting clients: 3
+2023-05-23 17:01:45,251 INFO o.e.c.Connection [pool-2-thread-5] Client 5 (Thread ID: 22) - Successfully connected to the database. Connection ID: 5. Waiting clients: 2
+2023-05-23 17:01:47,855 INFO o.e.c.Connection [pool-2-thread-1] Client 1 (Thread ID: 18) - Released connection. Connection ID: 1. Waiting clients: 2
+2023-05-23 17:01:47,855 INFO o.e.c.Connection [pool-2-thread-6] Client 1 (Thread ID: 23) - Successfully connected to the database. Connection ID: 1. Waiting clients: 1
+2023-05-23 17:01:47,933 INFO o.e.c.Connection [pool-2-thread-2] Client 2 (Thread ID: 19) - Released connection. Connection ID: 2. Waiting clients: 1
+2023-05-23 17:01:47,933 INFO o.e.c.Connection [pool-2-thread-7] Client 2 (Thread ID: 24) - Successfully connected to the database. Connection ID: 2. Waiting clients: 0
+2023-05-23 17:01:48,041 INFO o.e.c.Connection [pool-2-thread-3] Client 3 (Thread ID: 20) - Released connection. Connection ID: 3. Waiting clients: 0
+2023-05-23 17:01:48,151 INFO o.e.c.Connection [pool-2-thread-4] Client 4 (Thread ID: 21) - Released connection. Connection ID: 4. Waiting clients: 0
+2023-05-23 17:01:48,260 INFO o.e.c.Connection [pool-2-thread-5] Client 5 (Thread ID: 22) - Released connection. Connection ID: 5. Waiting clients: 0
+2023-05-23 17:01:50,858 INFO o.e.c.Connection [pool-2-thread-6] Client 1 (Thread ID: 23) - Released connection. Connection ID: 1. Waiting clients: 0
+2023-05-23 17:01:50,949 INFO o.e.c.Connection [pool-2-thread-7] Client 2 (Thread ID: 24) - Released connection. Connection ID: 2. Waiting clients: 0
+2023-05-23 17:01:55,578 INFO o.e.c.ConnectionPool [pool-3-thread-1] 
+No more waiting clients. Shutting down connections.
+2023-05-23 17:04:24,964 INFO o.e.c.Client [pool-2-thread-1] Client 1 (Thread ID: 18) - Waiting for a connection. Waiting clients: 1
+2023-05-23 17:04:25,047 INFO o.e.c.Client [pool-2-thread-2] Client 2 (Thread ID: 19) - Waiting for a connection. Waiting clients: 2
+2023-05-23 17:04:25,155 INFO o.e.c.Client [pool-2-thread-3] Client 3 (Thread ID: 20) - Waiting for a connection. Waiting clients: 3
+2023-05-23 17:04:25,264 INFO o.e.c.Client [pool-2-thread-4] Client 4 (Thread ID: 21) - Waiting for a connection. Waiting clients: 4
+2023-05-23 17:04:25,372 INFO o.e.c.Client [pool-2-thread-5] Client 5 (Thread ID: 22) - Waiting for a connection. Waiting clients: 5
+2023-05-23 17:04:25,482 INFO o.e.c.Client [pool-2-thread-6] Client 6 (Thread ID: 23) - Waiting for a connection. Waiting clients: 6
+2023-05-23 17:04:25,593 INFO o.e.c.Client [pool-2-thread-7] Client 7 (Thread ID: 24) - Waiting for a connection. Waiting clients: 7
+2023-05-23 17:04:26,976 INFO o.e.c.Connection [pool-2-thread-1] Client 1 (Thread ID: 18) - Successfully connected to the database. Connection ID: 1. Waiting clients: 6
+2023-05-23 17:04:27,054 INFO o.e.c.Connection [pool-2-thread-2] Client 2 (Thread ID: 19) - Successfully connected to the database. Connection ID: 2. Waiting clients: 5
+2023-05-23 17:04:27,163 INFO o.e.c.Connection [pool-2-thread-3] Client 3 (Thread ID: 20) - Successfully connected to the database. Connection ID: 3. Waiting clients: 4
+2023-05-23 17:04:27,273 INFO o.e.c.Connection [pool-2-thread-4] Client 4 (Thread ID: 21) - Successfully connected to the database. Connection ID: 4. Waiting clients: 3
+2023-05-23 17:04:27,380 INFO o.e.c.Connection [pool-2-thread-5] Client 5 (Thread ID: 22) - Successfully connected to the database. Connection ID: 5. Waiting clients: 2
+2023-05-23 17:04:29,991 INFO o.e.c.Connection [pool-2-thread-1] Client 1 (Thread ID: 18) - Released connection. Connection ID: 1. Waiting clients: 2
+2023-05-23 17:04:29,991 INFO o.e.c.Connection [pool-2-thread-6] Client 1 (Thread ID: 23) - Successfully connected to the database. Connection ID: 1. Waiting clients: 1
+2023-05-23 17:04:30,067 INFO o.e.c.Connection [pool-2-thread-2] Client 2 (Thread ID: 19) - Released connection. Connection ID: 2. Waiting clients: 1
+2023-05-23 17:04:30,067 INFO o.e.c.Connection [pool-2-thread-7] Client 2 (Thread ID: 24) - Successfully connected to the database. Connection ID: 2. Waiting clients: 0
+2023-05-23 17:04:30,177 INFO o.e.c.Connection [pool-2-thread-3] Client 3 (Thread ID: 20) - Released connection. Connection ID: 3. Waiting clients: 0
+2023-05-23 17:04:30,286 INFO o.e.c.Connection [pool-2-thread-4] Client 4 (Thread ID: 21) - Released connection. Connection ID: 4. Waiting clients: 0
+2023-05-23 17:04:30,395 INFO o.e.c.Connection [pool-2-thread-5] Client 5 (Thread ID: 22) - Released connection. Connection ID: 5. Waiting clients: 0
+2023-05-23 17:04:33,006 INFO o.e.c.Connection [pool-2-thread-6] Client 1 (Thread ID: 23) - Released connection. Connection ID: 1. Waiting clients: 0
+2023-05-23 17:04:33,084 INFO o.e.c.Connection [pool-2-thread-7] Client 2 (Thread ID: 24) - Released connection. Connection ID: 2. Waiting clients: 0
+2023-05-23 17:04:37,722 INFO o.e.c.ConnectionPool [pool-3-thread-1] 
+No more waiting clients. Shutting down connections.
+2023-05-23 18:08:43,054 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-23 18:08:43,058 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-23 18:09:41,724 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-23 18:09:41,727 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-25 13:21:40,628 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-25 13:21:40,637 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
+2023-05-25 14:08:31,667 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-25 14:08:31,677 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+

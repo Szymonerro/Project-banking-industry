@@ -1,8 +1,12 @@
 package org.example.operations;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.example.account.Account;
 
 public class Deposit extends Transaction {
+
+    private static final Logger LOGGER = LogManager.getLogger(Deposit.class);
     private double amount;
 
 
@@ -15,12 +19,12 @@ public class Deposit extends Transaction {
                 this.balanceBefore = balanceBefore;
                 this.newBalance = newBalance;
                 this.amount = amount;
-                System.out.println("Account number: " + account.getAccountNumber() +
+                LOGGER.info("Account number: " + account.getAccountNumber() +
                         "\nBalance before operation: " + getBalanceBefore() + " PLN" +
                         "\nDeposit: " + getAmount() + " PLN" +
                         "\nNew balance: " + getNewBalance() + " PLN\n");
             }
-            case 2 -> System.out.println("Amount must be greater than zero\n");
+            case 2 -> LOGGER.warn("Amount must be greater than zero\n");
         }
     }
 

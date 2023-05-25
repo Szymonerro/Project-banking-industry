@@ -1,5 +1,6 @@
 package org.example.people;
 
+import org.example.enums.EmploymentContractType;
 import org.example.enums.Title;
 
 import java.util.Objects;
@@ -10,6 +11,7 @@ public abstract class Person {
     private String lastName;
     protected int age;
     protected String address;
+    protected EmploymentContractType employmentContractType;
     protected double salary;
 
     public Person(Title title, String firstName, String lastName, int age, String address, double salary) {

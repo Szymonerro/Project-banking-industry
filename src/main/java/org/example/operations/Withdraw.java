@@ -1,15 +1,19 @@
 package org.example.operations;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.example.account.Account;
 import org.example.exceptions.InsufficientFundsException;
 
 public class Withdraw extends Transaction {
+
+    private static final Logger LOGGER = LogManager.getLogger(Withdraw.class);
     private double amount;
 
     public final void withdraw(Account account, double amount) {
         try {
-            if (account.getWithdrawalLimitCount() >= account.withdrawalLimit()) {
-                System.out.println("Withdrawal limit reached. Change the limits in the bank app.");
+            if (account.getWithdrawalLimitCount() >= account.getWithdrawalLimit()) {
+                LOGGER.warn("Withdrawal limit reached. Change the limits in the bank app.");
                 return;
             }
             switch (amount >= 10 ? 1 : 2) {
@@ -29,7 +33,7 @@ public class Withdraw extends Transaction {
                             "\nWithdrawal: " + getAmount() + " PLN" +
                             "\nNew balance: " + getNewBalance() + " PLN\n");
                 }
-                case 2 -> System.out.println("Minimum withdrawal amount is 10 PLN\n");
+                case 2 -> LOGGER.warn("Minimum withdrawal amount is 10 PLN\n");
             }
         } catch (InsufficientFundsException e) {
             System.out.println(e.getMessage());

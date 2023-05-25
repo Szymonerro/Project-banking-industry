@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Configuration status="WARN">
     <Appenders>
         <Console name="Console" target="SYSTEM_OUT">
@@ -7,15 +6,69 @@
         <File name="TransferLog" fileName="transfer.log">
             <PatternLayout pattern="%d %p %c{1.} [%t] %m%n" />
         </File>
+        <File name="WithdrawLog" fileName="withdraw.log">
+            <PatternLayout pattern="%d %p %c{1.} [%t] %m%n" />
+        </File>
+        <File name="DepositLog" fileName="deposit.log">
+            <PatternLayout pattern="%d %p %c{1.} [%t] %m%n" />
+        </File>
+        <File name="CreditRequestLog" fileName="creditRequest.log">
+            <PatternLayout pattern="%d %p %c{1.} [%t] %m%n" />
+        </File>
+        <File name="CheckBalanceLog" fileName="checkBalance.log">
+            <PatternLayout pattern="%d %p %c{1.} [%t] %m%n" />
+        </File>
+        <File name="ConnectionLog" fileName="connection.log">
+            <PatternLayout pattern="%d %p %c{1.} [%t] %m%n" />
+        </File>
     </Appenders>
     <Loggers>
         <Root level="info">
             <AppenderRef ref="Console" />
-            <AppenderRef ref="TransferLog" />
         </Root>
         <Logger name="org.example.operations.Transfer" level="debug" additivity="false">
             <AppenderRef ref="Console" />
             <AppenderRef ref="TransferLog" />
+        </Logger>
+        <Logger name="org.example.operations.Withdraw" level="debug" additivity="false">
+            <AppenderRef ref="Console" />
+            <AppenderRef ref="WithdrawLog" />
+        </Logger>
+        <Logger name="org.example.operations.Deposit" level="debug" additivity="false">
+            <AppenderRef ref="Console" />
+            <AppenderRef ref="DepositLog" />
+        </Logger>
+        <Logger name="org.example.operations.CreditRequest" level="debug" additivity="false">
+            <AppenderRef ref="Console" />
+            <AppenderRef ref="CreditRequestLog" />
+        </Logger>
+        <Logger name="org.example.operations.CheckBalance" level="debug" additivity="false">
+            <AppenderRef ref="Console" />
+            <AppenderRef ref="CheckBalanceLog" />
+        </Logger>
+        <Logger name="org.example.connectionPool.Connection" level="debug" additivity="false">
+            <AppenderRef ref="Console" />
+            <AppenderRef ref="ConnectionLog" />
+        </Logger>
+        <Logger name="org.example.connectionPool.ConnectionPool" level="debug" additivity="false">
+            <AppenderRef ref="Console" />
+            <AppenderRef ref="ConnectionLog" />
+        </Logger>
+        <Logger name="org.example.connectionPool.Client" level="debug" additivity="false">
+            <AppenderRef ref="Console" />
+            <AppenderRef ref="ConnectionLog" />
+        </Logger>
+        <Logger name="org.example.connectionPoolFuture.Connection" level="debug" additivity="false">
+            <AppenderRef ref="Console" />
+            <AppenderRef ref="ConnectionLog" />
+        </Logger>
+        <Logger name="org.example.connectionPoolFuture.ConnectionPool" level="debug" additivity="false">
+            <AppenderRef ref="Console" />
+            <AppenderRef ref="ConnectionLog" />
+        </Logger>
+        <Logger name="org.example.connectionPoolFuture.Client" level="debug" additivity="false">
+            <AppenderRef ref="Console" />
+            <AppenderRef ref="ConnectionLog" />
         </Logger>
     </Loggers>
 </Configuration>

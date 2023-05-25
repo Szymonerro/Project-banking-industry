@@ -1,4 +1,4 @@
-package org.example.operations;                                                  // add transaction ID
+package org.example.operations;
 
 public abstract class Transaction {
     protected double balanceBefore;

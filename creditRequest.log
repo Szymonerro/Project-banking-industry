@@ -1,0 +1,1186 @@
+2023-05-14 15:05:36,738 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-14 15:05:36,739 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-14 15:05:36,739 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-14 15:07:17,153 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-14 15:07:17,154 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-14 15:07:17,154 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-16 12:41:37,543 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-16 12:41:37,544 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-16 12:41:37,544 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-16 13:22:42,815 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-16 13:22:42,816 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-16 13:22:42,816 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-16 13:39:12,070 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-16 13:39:12,071 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-16 13:39:12,071 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-16 15:13:27,533 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-16 15:13:27,534 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-16 15:13:27,534 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-16 15:24:49,680 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-16 15:24:49,681 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-16 15:24:49,681 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-16 15:50:27,032 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-16 15:50:27,032 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-16 15:50:27,033 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-16 15:55:15,061 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-16 15:55:15,061 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-16 15:55:15,062 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-16 15:57:33,276 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-16 15:57:33,277 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-16 15:57:33,277 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-16 15:59:19,580 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-16 15:59:19,580 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-16 15:59:19,581 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-16 16:00:49,403 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-16 16:00:49,404 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-16 16:00:49,404 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-16 16:05:33,774 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-16 16:05:33,774 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-16 16:05:33,774 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-16 16:39:27,064 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-16 16:39:27,065 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-16 16:39:27,065 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-16 16:48:56,841 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-16 16:48:56,841 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-16 16:48:56,842 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-16 16:53:27,742 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-16 16:53:27,742 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-16 16:53:27,743 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-16 17:00:33,131 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-16 17:00:33,132 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-16 17:00:33,132 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-16 17:01:13,984 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-16 17:01:13,984 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-16 17:01:13,985 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-16 17:01:29,446 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-16 17:01:29,446 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-16 17:01:29,447 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-16 17:02:21,200 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-16 17:02:21,201 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-16 17:02:21,201 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-16 17:02:53,448 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-16 17:02:53,449 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-16 17:02:53,449 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-16 19:26:21,293 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-16 19:26:21,295 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-16 19:26:21,295 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-16 19:32:35,762 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-16 19:32:35,762 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-16 19:32:35,762 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-16 19:56:41,607 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-16 19:56:41,608 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-16 19:56:41,609 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-16 20:10:16,984 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-16 20:10:16,985 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-16 20:10:16,985 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-16 20:17:55,207 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-16 20:17:55,208 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-16 20:17:55,208 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-16 20:27:00,103 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-16 20:27:00,104 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-16 20:27:00,104 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-16 20:58:24,466 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-16 20:58:24,469 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-16 20:58:24,469 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-19 07:32:38,684 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-19 07:32:38,685 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-19 07:32:38,686 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-19 07:53:20,295 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-19 07:53:20,296 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-19 07:53:20,297 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-19 08:00:11,119 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-19 08:00:11,120 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-19 08:00:11,120 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-19 08:04:10,139 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-19 08:04:10,142 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-19 08:04:10,142 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-19 08:15:05,255 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-19 08:15:05,256 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-19 08:15:05,256 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-19 13:27:57,476 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-19 13:27:57,477 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-19 13:27:57,477 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-19 13:51:00,060 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-19 13:51:00,061 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-19 13:51:00,061 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-19 14:46:50,856 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-19 14:46:50,858 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-19 14:46:50,858 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-19 14:49:56,354 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-19 14:49:56,355 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-19 14:49:56,355 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-19 15:14:26,457 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-19 15:14:26,459 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-19 15:14:26,459 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-19 15:37:18,646 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-19 15:37:18,647 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-19 15:37:18,647 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-19 15:45:19,139 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-19 15:45:19,139 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-19 15:45:19,140 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-19 15:52:50,092 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-19 15:52:50,093 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-19 15:52:50,093 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-19 15:55:29,291 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-19 15:55:29,293 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-19 15:55:29,293 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-19 16:21:21,600 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-19 16:21:21,601 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-19 16:21:21,601 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-19 16:22:28,192 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-19 16:22:28,192 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-19 16:22:28,193 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-19 16:25:35,528 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-19 16:25:35,529 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-19 16:25:35,529 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-19 16:44:59,032 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-19 16:44:59,033 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-19 16:44:59,034 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-19 16:47:29,369 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-19 16:47:29,370 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-19 16:47:29,370 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-19 16:48:47,975 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-19 16:48:47,976 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-19 16:48:47,976 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-19 16:51:40,166 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-19 16:51:40,167 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-19 16:51:40,167 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-19 16:57:01,773 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-19 16:57:01,773 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-19 16:57:01,773 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-19 16:58:13,417 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-19 16:58:13,420 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-19 16:58:13,420 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-19 17:24:18,681 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-19 17:24:18,681 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-19 17:24:18,682 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-20 13:09:43,356 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-20 13:09:43,357 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-20 13:09:43,357 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-23 17:01:42,825 INFO o.e.c.Client [pool-2-thread-1] Client 1 (Thread ID: 18) - Waiting for a connection. Waiting clients: 1
+2023-05-23 17:01:42,911 INFO o.e.c.Client [pool-2-thread-2] Client 2 (Thread ID: 19) - Waiting for a connection. Waiting clients: 2
+2023-05-23 17:01:43,017 INFO o.e.c.Client [pool-2-thread-3] Client 3 (Thread ID: 20) - Waiting for a connection. Waiting clients: 3
+2023-05-23 17:01:43,125 INFO o.e.c.Client [pool-2-thread-4] Client 4 (Thread ID: 21) - Waiting for a connection. Waiting clients: 4
+2023-05-23 17:01:43,233 INFO o.e.c.Client [pool-2-thread-5] Client 5 (Thread ID: 22) - Waiting for a connection. Waiting clients: 5
+2023-05-23 17:01:43,339 INFO o.e.c.Client [pool-2-thread-6] Client 6 (Thread ID: 23) - Waiting for a connection. Waiting clients: 6
+2023-05-23 17:01:43,449 INFO o.e.c.Client [pool-2-thread-7] Client 7 (Thread ID: 24) - Waiting for a connection. Waiting clients: 7
+2023-05-23 17:01:44,846 INFO o.e.c.Connection [pool-2-thread-1] Client 1 (Thread ID: 18) - Successfully connected to the database. Connection ID: 1. Waiting clients: 6
+2023-05-23 17:01:44,924 INFO o.e.c.Connection [pool-2-thread-2] Client 2 (Thread ID: 19) - Successfully connected to the database. Connection ID: 2. Waiting clients: 5
+2023-05-23 17:01:45,032 INFO o.e.c.Connection [pool-2-thread-3] Client 3 (Thread ID: 20) - Successfully connected to the database. Connection ID: 3. Waiting clients: 4
+2023-05-23 17:01:45,141 INFO o.e.c.Connection [pool-2-thread-4] Client 4 (Thread ID: 21) - Successfully connected to the database. Connection ID: 4. Waiting clients: 3
+2023-05-23 17:01:45,251 INFO o.e.c.Connection [pool-2-thread-5] Client 5 (Thread ID: 22) - Successfully connected to the database. Connection ID: 5. Waiting clients: 2
+2023-05-23 17:01:47,855 INFO o.e.c.Connection [pool-2-thread-1] Client 1 (Thread ID: 18) - Released connection. Connection ID: 1. Waiting clients: 2
+2023-05-23 17:01:47,855 INFO o.e.c.Connection [pool-2-thread-6] Client 1 (Thread ID: 23) - Successfully connected to the database. Connection ID: 1. Waiting clients: 1
+2023-05-23 17:01:47,933 INFO o.e.c.Connection [pool-2-thread-2] Client 2 (Thread ID: 19) - Released connection. Connection ID: 2. Waiting clients: 1
+2023-05-23 17:01:47,933 INFO o.e.c.Connection [pool-2-thread-7] Client 2 (Thread ID: 24) - Successfully connected to the database. Connection ID: 2. Waiting clients: 0
+2023-05-23 17:01:48,041 INFO o.e.c.Connection [pool-2-thread-3] Client 3 (Thread ID: 20) - Released connection. Connection ID: 3. Waiting clients: 0
+2023-05-23 17:01:48,151 INFO o.e.c.Connection [pool-2-thread-4] Client 4 (Thread ID: 21) - Released connection. Connection ID: 4. Waiting clients: 0
+2023-05-23 17:01:48,260 INFO o.e.c.Connection [pool-2-thread-5] Client 5 (Thread ID: 22) - Released connection. Connection ID: 5. Waiting clients: 0
+2023-05-23 17:01:50,858 INFO o.e.c.Connection [pool-2-thread-6] Client 1 (Thread ID: 23) - Released connection. Connection ID: 1. Waiting clients: 0
+2023-05-23 17:01:50,949 INFO o.e.c.Connection [pool-2-thread-7] Client 2 (Thread ID: 24) - Released connection. Connection ID: 2. Waiting clients: 0
+2023-05-23 17:01:55,578 INFO o.e.c.ConnectionPool [pool-3-thread-1] 
+No more waiting clients. Shutting down connections.
+2023-05-23 17:04:24,964 INFO o.e.c.Client [pool-2-thread-1] Client 1 (Thread ID: 18) - Waiting for a connection. Waiting clients: 1
+2023-05-23 17:04:25,047 INFO o.e.c.Client [pool-2-thread-2] Client 2 (Thread ID: 19) - Waiting for a connection. Waiting clients: 2
+2023-05-23 17:04:25,155 INFO o.e.c.Client [pool-2-thread-3] Client 3 (Thread ID: 20) - Waiting for a connection. Waiting clients: 3
+2023-05-23 17:04:25,264 INFO o.e.c.Client [pool-2-thread-4] Client 4 (Thread ID: 21) - Waiting for a connection. Waiting clients: 4
+2023-05-23 17:04:25,372 INFO o.e.c.Client [pool-2-thread-5] Client 5 (Thread ID: 22) - Waiting for a connection. Waiting clients: 5
+2023-05-23 17:04:25,482 INFO o.e.c.Client [pool-2-thread-6] Client 6 (Thread ID: 23) - Waiting for a connection. Waiting clients: 6
+2023-05-23 17:04:25,593 INFO o.e.c.Client [pool-2-thread-7] Client 7 (Thread ID: 24) - Waiting for a connection. Waiting clients: 7
+2023-05-23 17:04:26,976 INFO o.e.c.Connection [pool-2-thread-1] Client 1 (Thread ID: 18) - Successfully connected to the database. Connection ID: 1. Waiting clients: 6
+2023-05-23 17:04:27,054 INFO o.e.c.Connection [pool-2-thread-2] Client 2 (Thread ID: 19) - Successfully connected to the database. Connection ID: 2. Waiting clients: 5
+2023-05-23 17:04:27,163 INFO o.e.c.Connection [pool-2-thread-3] Client 3 (Thread ID: 20) - Successfully connected to the database. Connection ID: 3. Waiting clients: 4
+2023-05-23 17:04:27,273 INFO o.e.c.Connection [pool-2-thread-4] Client 4 (Thread ID: 21) - Successfully connected to the database. Connection ID: 4. Waiting clients: 3
+2023-05-23 17:04:27,380 INFO o.e.c.Connection [pool-2-thread-5] Client 5 (Thread ID: 22) - Successfully connected to the database. Connection ID: 5. Waiting clients: 2
+2023-05-23 17:04:29,991 INFO o.e.c.Connection [pool-2-thread-1] Client 1 (Thread ID: 18) - Released connection. Connection ID: 1. Waiting clients: 2
+2023-05-23 17:04:29,991 INFO o.e.c.Connection [pool-2-thread-6] Client 1 (Thread ID: 23) - Successfully connected to the database. Connection ID: 1. Waiting clients: 1
+2023-05-23 17:04:30,067 INFO o.e.c.Connection [pool-2-thread-2] Client 2 (Thread ID: 19) - Released connection. Connection ID: 2. Waiting clients: 1
+2023-05-23 17:04:30,067 INFO o.e.c.Connection [pool-2-thread-7] Client 2 (Thread ID: 24) - Successfully connected to the database. Connection ID: 2. Waiting clients: 0
+2023-05-23 17:04:30,177 INFO o.e.c.Connection [pool-2-thread-3] Client 3 (Thread ID: 20) - Released connection. Connection ID: 3. Waiting clients: 0
+2023-05-23 17:04:30,286 INFO o.e.c.Connection [pool-2-thread-4] Client 4 (Thread ID: 21) - Released connection. Connection ID: 4. Waiting clients: 0
+2023-05-23 17:04:30,395 INFO o.e.c.Connection [pool-2-thread-5] Client 5 (Thread ID: 22) - Released connection. Connection ID: 5. Waiting clients: 0
+2023-05-23 17:04:33,006 INFO o.e.c.Connection [pool-2-thread-6] Client 1 (Thread ID: 23) - Released connection. Connection ID: 1. Waiting clients: 0
+2023-05-23 17:04:33,084 INFO o.e.c.Connection [pool-2-thread-7] Client 2 (Thread ID: 24) - Released connection. Connection ID: 2. Waiting clients: 0
+2023-05-23 17:04:37,722 INFO o.e.c.ConnectionPool [pool-3-thread-1] 
+No more waiting clients. Shutting down connections.
+2023-05-23 18:08:43,068 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-23 18:08:43,070 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-23 18:08:43,070 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-23 18:09:41,740 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-23 18:09:41,741 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-23 18:09:41,741 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-25 13:21:40,664 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-25 13:21:40,666 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-25 13:21:40,666 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+
+2023-05-25 14:08:31,700 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-25 14:08:31,702 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-25 14:08:31,702 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+

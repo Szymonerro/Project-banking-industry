@@ -1,6 +1,7 @@
 package org.example.utils;
 
-public class LoanCalculator implements org.example.interfaces.LoanCalculator {
+public class LoanCalculator implements org.example.interfaces.ILoanCalculator {
+    @Override
     public void loanCalculator(double loanAmount, int numberOfInstallments, double interestRate) {
         try {
             if (loanAmount < 100) {

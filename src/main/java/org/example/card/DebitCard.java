@@ -1,19 +1,16 @@
 package org.example.card;
 import org.example.account.Account;
+import org.example.enums.CardBrand;
 import org.example.enums.CardType;
 import org.example.enums.Color;
-import org.example.interfaces.BlockCard;
+import org.example.interfaces.IBlockCard;
 import org.example.people.Customer;
 
-public class DebitCard extends Card implements BlockCard {
-    Color color;
-    CardType cardType;
+public class DebitCard extends Card implements IBlockCard {
     private boolean blocked = false;
 
-    public DebitCard(CardType cardType, long cardNumber, Customer customer, Color color, Account account) {
-        super(customer, cardNumber, account);
-        this.color = color;
-        this.cardType = cardType;
+    public DebitCard(long cardNumber, Customer customer, Color color, Account account, CardBrand cardBrand) {
+        super(CardType.DEBIT, customer, cardNumber, color, account, cardBrand);
     }
 
     @Override
@@ -33,8 +30,9 @@ public class DebitCard extends Card implements BlockCard {
 
     @Override
     public String toString() {
-        return "Account owner: " + customer.getFirstName() + " " + customer.getLastName() +
+        return "Debit card owner: " + customer.getFirstName() + " " + customer.getLastName() +
                 "\nCard number: " + cardNumber +
+                "\nCard brand: " + cardBrand +
                 "\nCard type: " + cardType +
                 "\nCard color: " + color;
     }
