@@ -1298,3 +1298,25 @@ Balance before operation: 5700.0 PLN
 Deposit: 10.0 PLN
 New balance: 5710.0 PLN
 
+2023-05-28 13:09:24,418 INFO o.e.o.Deposit [main] Account number: 4827110000234560
+Balance before operation: 2000.0 PLN
+Deposit: 100.0 PLN
+New balance: 2100.0 PLN
+
+2023-05-28 13:09:24,419 WARN o.e.o.Deposit [main] Amount must be greater than zero
+
+2023-05-28 13:09:24,420 INFO o.e.o.Deposit [main] Account number: 4827110000234560
+Balance before operation: 2100.0 PLN
+Deposit: 100.0 PLN
+New balance: 2200.0 PLN
+
+2023-05-28 13:09:24,421 INFO o.e.o.Deposit [main] Account number: 2312387231369120
+Balance before operation: 5000.0 PLN
+Deposit: 700.0 PLN
+New balance: 5700.0 PLN
+
+2023-05-28 13:09:24,425 INFO o.e.o.Deposit [main] Account number: 2312387231369120
+Balance before operation: 5700.0 PLN
+Deposit: 10.0 PLN
+New balance: 5710.0 PLN
+

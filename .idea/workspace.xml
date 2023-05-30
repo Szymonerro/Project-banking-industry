@@ -8,68 +8,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4b2c10b-2fc0-4cf7-b8cb-e7f0c6df8384" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/AppStart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/collectionStream/AdultCustomersStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/collectionStream/AverageAgeStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/collectionStream/CustomerCountStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/collectionStream/CustomerCreditScoreStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/collectionStream/CustomerNameCollectionStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/collectionStream/CustomerSalaryStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/collectionStream/FemaleCustomersStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/collectionStream/MaleCustomersStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/connectionPool/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/connectionPool/Connection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/connectionPool/ConnectionPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/connectionPoolFuture/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/connectionPoolFuture/Connection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/connectionPoolFuture/ConnectionPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/enums/CardBrand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/enums/Currency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/enums/EmploymentContractType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/enums/TransactionStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interfaces/IAccountLimits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/interfaces/IWelcomeApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/threads/RunnableInterfaceExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/threads/ThreadClassExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/utils/CreditScoreCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/utils/LambdaExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/utils/ReflectionUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/utils/UniqueWordsCounterUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CustomerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkBalance.log" beforeDir="false" afterPath="$PROJECT_DIR$/checkBalance.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/creditRequest.log" beforeDir="false" afterPath="$PROJECT_DIR$/creditRequest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deposit.log" beforeDir="false" afterPath="$PROJECT_DIR$/deposit.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Project_Requirements" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Project_Requirements" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/account/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/account/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/account/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/account/BankAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/account/BusinessAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/account/BusinessAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/account/InvestmentAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/account/InvestmentAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/account/SavingsAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/account/SavingsAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/card/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/card/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/card/CreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/card/CreditCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/card/DebitCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/card/DebitCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/enums/AccountType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/enums/AccountType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/enums/CardType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/enums/CardType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/enums/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/enums/Color.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/enums/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/enums/Position.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/enums/Title.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/enums/Title.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/enums/TransferType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/enums/TransferType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/interfaces/AccountLimits.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/interfaces/BlockCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/interfaces/IBlockCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/interfaces/CreditScoring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/interfaces/ICreditScoring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/interfaces/LoanCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/interfaces/ILoanCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/operations/CheckBalance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/operations/CheckBalance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/operations/CreditRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/operations/CreditRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/operations/Deposit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/operations/Deposit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/operations/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/operations/Transaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/operations/Transfer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/operations/Transfer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/operations/Withdraw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/operations/Withdraw.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/people/BankEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/people/BankEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/people/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/people/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/people/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/people/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/utils/LoanCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/utils/LoanCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/transfer.log" beforeDir="false" afterPath="$PROJECT_DIR$/transfer.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/withdraw.log" beforeDir="false" afterPath="$PROJECT_DIR$/withdraw.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

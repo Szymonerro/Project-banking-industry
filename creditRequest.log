@@ -1184,3 +1184,23 @@ Overall refund amount: 1050.0 PLN
 Reason: The requested amount is too high.
 Try a lower amount.
 
+2023-05-28 13:09:24,445 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 4000.0 PLN
+Number of installments: 10
+Interest rate: 5.0%
+Installment amount: 420.0 PLN / month
+Overall refund amount: 4200.0 PLN
+
+2023-05-28 13:09:24,447 INFO o.e.o.CreditRequest [main] Positive bank verification. Credit granted. Details:
+
+Loan amount: 1000.0 PLN
+Number of installments: 4
+Interest rate: 5.0%
+Installment amount: 262.5 PLN / month
+Overall refund amount: 1050.0 PLN
+
+2023-05-28 13:09:24,447 WARN o.e.o.CreditRequest [main] Bank verification negative.
+Reason: The requested amount is too high.
+Try a lower amount.
+

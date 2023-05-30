@@ -533,3 +533,7 @@ Transfer description: Test description
 2023-05-25 14:08:31,677 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
 Transfer description: Test description
 
+2023-05-28 13:09:24,424 INFO o.e.o.Transfer [main] Transfer from account 4827110000234560 to account 2312387231369120 completed successfully
+2023-05-28 13:09:24,430 INFO o.e.o.Transfer [main] Transfer from account 6767112212120001 to account 2312387231369120 completed successfully
+Transfer description: Test description
+
